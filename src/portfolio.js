@@ -37,8 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/paritosh-dev-05254b204/",
   gmail: "paritoshdev26@gmail.com",
   facebook: "https://www.facebook.com/paritosh.dev.31",
-  instagram : "https://www.instagram.com/paritosh_26dev/",
-  twitter : "https://twitter.com/paritosh_dev",
+  instagram: "https://www.instagram.com/paritosh_26dev/",
+  twitter: "https://twitter.com/paritosh_dev",
   // medium: "https://medium.com/@paritoshdev26",
   // stackoverflow: "https://stackoverflow.com/users/17780269/paritosh-dev",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -52,13 +52,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡Competitive programming specializing in C++, Java and Python"
-    ),
+    emoji("⚡Competitive programming specializing in C++, Java and Python"),
     emoji("⚡ Solving advanced data structures and complex algorithms in DSA"),
-    emoji(
-      "⚡  Develop highly interactive MERN stack applications"
-    )
+    emoji("⚡  Develop highly interactive MERN stack applications")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -116,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -131,7 +127,6 @@ const educationInfo = {
       logo: require("./assets/images/bitLogo.png"),
       subHeader: "Bachlors of Technology in Computer Science",
       duration: "November 2020 - July 2024"
-      
     },
     {
       schoolName: "Guru Nanak Hr. Sec. School",
@@ -187,7 +182,6 @@ const workExperiences = {
         "Optimised and automated the process ensuring accurate data representation and access rights enforcement.",
         "Modified scripts for each dashboard using IronPython.",
         "Conducted thorough testing to verify the functionality of reports and documented updates forfuture reference."
-        
       ]
     }
   ]
@@ -253,7 +247,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/5511684668888984"
-        },
+        }
       ]
     },
     {
