@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 fs = require("fs");
 const https = require("https");
 process = require("process");
@@ -14,9 +15,7 @@ const ERR = {
   requestFailed:
     "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
   requestFailedMedium:
-    "The request to Medium didn't succeed. Check if Medium username in your .env file is correct.",
-  requestMediumFailed:
-    "The request to Medium failed. Check if the Medium API URL or username is correct."
+    "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
 
 if (USE_GITHUB_DATA === "true") {
